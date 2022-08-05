@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather Sans";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25em;
+}
+
+body::-webkit-scrollbar-track {
+  background: #4a2a77;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #ffd700;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input {
+  appearance: none;
+  border-radius: 0;
+}

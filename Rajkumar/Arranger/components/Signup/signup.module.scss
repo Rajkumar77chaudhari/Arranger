@@ -1,0 +1,68 @@
+@import "../../styles/Home.module.scss";
+
+.signup_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.form_wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  margin: 50px;
+  padding: 10px 30px;
+  background-color: #ccbfdd;
+}
+
+.header {
+  color: $box-color;
+  margin: 20px 80px;
+}
+
+.label {
+  margin: 15px 10px;
+}
+
+.input_text {
+  width: 400px;
+  padding: 0 0 0 10px;
+  height: 40px;
+  border-radius: 7px;
+  margin: 5px;
+}
+
+.selector_box {
+  width: 180px;
+  height: 40px;
+  background-color: $box-color;
+  font-size: 20px;
+  color: $base-color;
+}
+
+.textarea {
+  width: 400px;
+  height: 150px;
+  margin: 5px;
+  border-radius: 7px;
+  padding: 0 0 0 10px;
+}
+
+.btn_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  height: 50px;
+  width: 130px;
+  background-color: $box-color;
+  font-size: 25px;
+  color: $yellow;
+  border-radius: 10px;
+  margin: 20px;
+  &:hover {
+    border: 2px solid $yellow;
+  }
+}

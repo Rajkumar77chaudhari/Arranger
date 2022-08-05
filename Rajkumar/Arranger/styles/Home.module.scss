@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap");
+
+$base-color: #faf7ff;
+$box-color: #7a41cc;
+$light_purple: #9951ff;
+$dark_purple: #4a2a77;
+$yellow: #ffd700;
+
+#intro_section {
+  background: radial-gradient(
+    150.1% 207.07% at 78.65% 80.48%,
+    #f1c644 0%,
+    #7a41cc 100%
+  );
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 1000px;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  overflow: hidden;
+}
+
+.searchBox {
+  background: url("../public/hall.jpg") no-repeat center;
+  height: 350px;
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  width: 1400px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #000000;
+}
+
+.searchBar {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  width: 1050px;
+  margin: 45px 0px;
+  height: 60px;
+  justify-content: space-evenly;
+}
+
+#searchInput {
+  display: flex;
+  width: 300px;
+  border-bottom: 2px solid black;
+  justify-content: space-evenly;
+  align-items: center;
+  &:focus-within {
+    border: 2px solid black;
+  }
+}
+
+#searchText {
+  font-size: 20px;
+  outline-style: none;
+  height: 35px;
+  width: 250px;
+  border-style: none;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.selector_box {
+  width: 180px;
+  height: 40px;
+  background-color: $box-color;
+  font-size: 20px;
+  color: $base-color;
+}
+
+#date {
+  width: 180px;
+  height: 40px;
+  background-color: $box-color;
+  color: $base-color;
+}
+
+.threePhotos {
+  width: 1550px;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Timages {
+  position: relative;
+  height: 250px;
+  margin: 0 10px;
+  box-shadow: 10px 10px 15px #000000;
+  border-radius: 20px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 30px 0;
+}
+
+#slogn {
+  font-size: 60px;
+  margin: 0 200px;
+}
+
+#btn {
+  height: 80px;
+  background-color: #9951ff;
+  color: #ffd700;
+  position: absolute;
+  top: 140px;
+  right: 100px;
+  width: 170px;
+  margin: 20px;
+  box-shadow: 2px 2px 5px black;
+  padding: 10px 10px;
+  font-size: 30px;
+  font-weight: bolder;
+  border-radius: 10px;
+  &:hover {
+    box-shadow: inset 2px 2px 5px black, inset -2px -2px 5px $base-color;
+  }
+}
